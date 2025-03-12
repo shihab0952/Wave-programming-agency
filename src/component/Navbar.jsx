@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`bg-[#38323e] p-4 shadow-md fixed top-0 left-0 w-full z-50 transition-transform duration-300 ${
+      className={`bg-[#251533] p-4 shadow-md fixed top-0 left-0 w-full z-50 transition-transform duration-300 ${
         scrollY > 50 ? "-translate-y-10" : "translate-y-0"
       }`}
     >
